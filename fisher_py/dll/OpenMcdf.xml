@@ -219,6 +219,7 @@
              </code>
              </example>
         </member>
+        <!-- Badly formed XML comment ignored for member "M:OpenMcdf.CFStorage.TryGetStream(System.String,OpenMcdf.CFStream@)" -->
         <member name="M:OpenMcdf.CFStorage.TryGetStream(System.String)">
              <summary>
              Get a named <see cref="T:OpenMcdf.CFStream">stream</see> contained in the current storage if existing.
@@ -282,6 +283,7 @@
              </code>
              </example>
         </member>
+        <!-- Badly formed XML comment ignored for member "M:OpenMcdf.CFStorage.TryGetStorage(System.String,OpenMcdf.CFStorage@)" -->
         <member name="M:OpenMcdf.CFStorage.AddStorage(System.String)">
              <summary>
              Create new child storage directory inside the current storage.
@@ -350,6 +352,13 @@
             <exception cref="T:OpenMcdf.CFDisposedException">Raised if trying to delete item from a closed compound file</exception>
             <exception cref="T:OpenMcdf.CFItemNotFound">Raised if item to delete is not found</exception>
             <exception cref="T:OpenMcdf.CFException">Raised if trying to delete root storage</exception>
+        </member>
+        <member name="M:OpenMcdf.CFStorage.RenameItem(System.String,System.String)">
+            <summary>
+            Rename a Stream or Storage item in the current storage
+            </summary>
+            <param name="oldItemName">The item old name to lookup</param>
+            <param name="newItemName">The new name to assign</param>
         </member>
         <member name="T:OpenMcdf.CFStream">
             <summary>
@@ -436,8 +445,8 @@
             Raised when the owner compound file has been closed.
             </exception>
         </member>
-        <!-- Commento XML in formato non corretto ignorato per il membro 'M:OpenMcdf.CFStream.Read(System.Byte[],System.Int64,System.Int32)' -->
-        <!-- Commento XML in formato non corretto ignorato per il membro 'M:OpenMcdf.CFStream.Read(System.Byte[],System.Int64,System.Int32,System.Int32)' -->
+        <!-- Badly formed XML comment ignored for member "M:OpenMcdf.CFStream.Read(System.Byte[],System.Int64,System.Int32)" -->
+        <!-- Badly formed XML comment ignored for member "M:OpenMcdf.CFStream.Read(System.Byte[],System.Int64,System.Int32,System.Int32)" -->
         <member name="M:OpenMcdf.CFStream.CopyFrom(System.IO.Stream)">
             <summary>
             Copy data from an existing stream.
@@ -957,7 +966,7 @@
             <param name="sType">Type of sector to look for</param>
             <returns>A Queue of available sectors or minisectors already allocated</returns>
         </member>
-        <!-- Commento XML in formato non corretto ignorato per il membro 'M:OpenMcdf.CompoundFile.AppendData(OpenMcdf.CFItem,System.Byte[])' -->
+        <!-- Badly formed XML comment ignored for member "M:OpenMcdf.CompoundFile.AppendData(OpenMcdf.CFItem,System.Byte[])" -->
         <member name="M:OpenMcdf.CompoundFile.SetStreamLength(OpenMcdf.CFItem,System.Int64)">
             <summary>
             Resize stream length
