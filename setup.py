@@ -5,7 +5,7 @@ with open('README.md', 'r') as fh:
 
 setuptools.setup(
     name='fisher_py',
-    version='0.0.1.dev1',
+    version='1.0.19-rc.1',
     author='ethz-institute-of-microbiology',
     author_email='dominik.werner@live.com',
     description='This python module allows to extract data from the RAW-file-format produces by devices from Thermo Fisher Scientific.',
