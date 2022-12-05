@@ -117,6 +117,7 @@ class RawFileAccess(NetWrapperBase):
         method embedded in this file.
         """
         return self._get_wrapped_object_().InstrumentMethodsCount
+        # return self._get_wrapped_object_().get_InstrumentMethodsCount()
 
     @property
     def path(self) -> str:
